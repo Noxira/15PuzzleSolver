@@ -173,7 +173,7 @@ def solveGameboard(board: List[List[int]]):
                     return (solution, timeTaken, nodesRaised)
 
             # stop if iteration gets too big
-            if (iteration > 20000):
+            if (iteration > 40000):
                 raise Exception("Iteration limit reached")
                 
             # sort       
